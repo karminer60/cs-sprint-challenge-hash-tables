@@ -4,11 +4,17 @@ class Ticket:
         self.source = source
         self.destination = destination
 
+cache = {}
 
 def reconstruct_trip(tickets, length):
     """
     YOUR CODE HERE
     """
     # Your code here
+    key = (x, y)
+    for index in tickets[index]:
+        if tickets[index]
+        elif tickets[index] == tickets[index + 1]:
+            return 
 
     return route
