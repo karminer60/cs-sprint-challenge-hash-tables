@@ -24,27 +24,27 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Hashing functions
 
-They are used to 
+They are used to  
 
 2. Collision resolution
 
-
+Use linked lists in order to 
 
 3. Performance of basic hash table operations
 
-
+...
 
 4. Load factor
 
-
+keys/capacity
 
 5. Automatic resizing
 
-
+?
 
 6. Various use cases for hash tables
 
-
+can use hash tables to store results and speed up the process
 
 
 Working on exercises 2, 3 and 4

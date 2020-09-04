@@ -3,8 +3,15 @@ def has_negatives(a):
     YOUR CODE HERE
     """
     # Your code here
-    if array[index] == array[index + 1]:
-        return 
+    # Use a dictionary to add the negative numbers and use that to search for negative versions of the positive numbers
+    Dict = {}
+    result = []
+    for number in array:
+        if number < 0:
+            Dict.append(number)    
+    for number in array:
+        if number > 0 and number in Dict:
+                
     return result
 
 
