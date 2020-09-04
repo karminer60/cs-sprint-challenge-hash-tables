@@ -5,14 +5,16 @@ def get_indices_of_item_weights(weights, length, limit):
     # Your code here
 
     Dict = {}
-    result = []
     for index in range(len(weights)):
         Dict[weights[index]] = index  
 
     for index in range(len(weights)):
-        if Dict[weights[index]] == Dict.get(limit - weights[index], 0):
-            result.append(weights[index])
-            result.append(Dict[weights[index]])
-            return result
-        else:
-            return None
+        weight = weights[index]
+        if limit - weight in Dict:
+            indexTwo = Dict[limit - weight]
+            if index > indexTwo :
+                return (index, indexTwo)
+            else:
+                return (indexTwo, index)
+      
+    return None
