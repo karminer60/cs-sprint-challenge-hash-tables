@@ -29,6 +29,8 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 5. Automatic resizing
 6. Various use cases for hash tables
 
+Working on exercises 2, 3 and 4
+
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions

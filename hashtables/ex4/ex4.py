@@ -3,7 +3,8 @@ def has_negatives(a):
     YOUR CODE HERE
     """
     # Your code here
-
+    if array[index] == array[index + 1]:
+        return 
     return result
 
 

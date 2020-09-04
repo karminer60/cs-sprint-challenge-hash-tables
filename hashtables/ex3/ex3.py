@@ -1,9 +1,15 @@
+cache = {}
 def intersection(arrays):
     """
     YOUR CODE HERE
     """
     # Your code here
-
+    key = (x, y)
+    if key in cache:
+	    return cache[key]
+    if key not in cache:
+	    cache[key] = intersection(x,y) 
+    return cache[key]
     return result
 
 
