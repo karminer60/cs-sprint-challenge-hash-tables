@@ -6,12 +6,12 @@ def has_negatives(a):
     # Use a dictionary to add the negative numbers and use that to search for negative versions of the positive numbers
     Dict = {}
     result = []
-    for number in array:
+    for number in a:
         if number < 0:
-            Dict.append(number)    
-    for number in array:
-        if number > 0 and number in Dict:
-                
+            Dict[number] = True  
+    for number in a:
+        if number > 0 and - number in Dict:
+            result.append(number)       
     return result
 
 
