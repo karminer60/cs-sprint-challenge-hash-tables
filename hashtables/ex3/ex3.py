@@ -5,14 +5,12 @@ def intersection(arrays):
     """
     # Your code here
     #Plan: Store keys with values, dict that stores (number, countOfNumber)
-    #update the dict for each number in array ad do that for each array
+    #update the dict for each number in array and do that for each array
     #then look through the dict and look for number to have a count that matches the number of arrays, and filter 
-    key = (x, y)
-    if key in cache:
-	    return cache[key]
-    if key not in cache:
-	    cache[key] = intersection(x,y) 
-    return cache[key]
+    Dict = {}
+    for index in array[index]:
+        Dict[key] = Dict.get(key, 0) + 1         
+        result  = Dict
     return result
 
 
