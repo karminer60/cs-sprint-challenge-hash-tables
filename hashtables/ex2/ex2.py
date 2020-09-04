@@ -16,5 +16,5 @@ def reconstruct_trip(tickets, length):
         if tickets[index]
         elif tickets[index] == tickets[index + 1]:
             return 
-
+    
     return route

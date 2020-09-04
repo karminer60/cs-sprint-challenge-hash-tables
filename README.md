@@ -23,11 +23,29 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+
+They are used to 
+
 2. Collision resolution
+
+
+
 3. Performance of basic hash table operations
+
+
+
 4. Load factor
+
+
+
 5. Automatic resizing
+
+
+
 6. Various use cases for hash tables
+
+
+
 
 Working on exercises 2, 3 and 4
 
