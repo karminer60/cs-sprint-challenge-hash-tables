@@ -24,27 +24,27 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Hashing functions
 
-They are used to  
+Take key and returns number/hash.
 
 2. Collision resolution
 
-Use linked lists in order to 
+Use linked lists in order to store different keys with the same hash index. Do this by inserting a linked list at each hash index.
 
 3. Performance of basic hash table operations
 
-...
+Delete, look up and insert: have an order one time complexity
 
 4. Load factor
 
-keys/capacity
+number of keys/length (size) of array
 
 5. Automatic resizing
 
-?
+Every time you add, if loading capacity is over a certain limit, then it resizes or spreads keys out.
 
 6. Various use cases for hash tables
 
-can use hash tables to store results and speed up the process
+can use hash tables to store results and speed up the process (memoization)
 
 
 Working on exercises 2, 3 and 4
