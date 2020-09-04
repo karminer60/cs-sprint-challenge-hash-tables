@@ -1,4 +1,4 @@
-cache = {}
+
 def intersection(arrays):
     """
     YOUR CODE HERE
@@ -8,9 +8,14 @@ def intersection(arrays):
     #update the dict for each number in array and do that for each array
     #then look through the dict and look for number to have a count that matches the number of arrays, and filter 
     Dict = {}
-    for index in array[index]:
-        Dict[key] = Dict.get(key, 0) + 1         
-        result  = Dict
+    result = []
+    for array in arrays:
+        for key in array:
+            Dict[key] = Dict.get(key, 0) + 1         
+    for key,count in Dict.items():
+        if count == len(arrays):
+            result.append(key)
+        
     return result
 
 
