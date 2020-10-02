@@ -16,12 +16,10 @@ def reconstruct_trip(tickets, length):
         ticket = tickets[index]
         key = ticket.source
         value = ticket.destination
-        for key in ticket:
-            Dict[key] = value
+        Dict[key]= value
             
-
     for key,value in Dict.items():
-        
+          
         if key == 'NONE':
             route.append(ticket)
         elif value == ticket.source:
