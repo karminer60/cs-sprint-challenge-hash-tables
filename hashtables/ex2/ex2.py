@@ -18,14 +18,11 @@ def reconstruct_trip(tickets, length):
         value = ticket.destination
         Dict[key]= value
             
-    for key,value in Dict.items():
-          
-        if key == 'NONE':
-            route.append(ticket)
-        elif value == ticket.source:
-            route.append(ticket)
-        else:
-            route.append(ticket)    
+
+    key = 'NONE'
+    while Dict[key] != 'NONE':
+        key = Dict[key]
+        route.append(key)   
 
     return route
 
