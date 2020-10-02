@@ -6,7 +6,8 @@ def get_indices_of_item_weights(weights, length, limit):
 
     Dict = {}
     for index in range(len(weights)):
-        Dict[weights[index]] = index  
+        weight = weights[index]
+        Dict[weight] = index  
 
     for index in range(len(weights)):
         weight = weights[index]

@@ -10,9 +10,19 @@ def reconstruct_trip(tickets, length):
     """
     # Your code here
     Dict = {}
-    for index in tickets[index]:
-        if tickets[index]
-        elif tickets[index] == tickets[index + 1]:
-            return 
+    route =[]  
+
+    for index in range(len(weights)):
+        ticket = tickets[index]
+        Dict[ticket] = index  
+
+    for index in range(len(tickets)):
+        ticket = tickets[index]
+        if ticket.source = NONE:
+            route.append(ticket)
+        elif ticket.distination == ticket.source:
+            route.append(ticket)
+        
+            
 
     return route
