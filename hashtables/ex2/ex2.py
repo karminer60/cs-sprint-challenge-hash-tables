@@ -9,7 +9,7 @@ def reconstruct_trip(tickets, length):
     YOUR CODE HERE
     """
     # Your code here
-    key = (x, y)
+    Dict = {}
     for index in tickets[index]:
         if tickets[index]
         elif tickets[index] == tickets[index + 1]:
