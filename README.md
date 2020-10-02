@@ -23,11 +23,31 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+
+Take key and returns number/hash.
+
 2. Collision resolution
+
+Use linked lists in order to store different keys with the same hash index. Do this by inserting a linked list at each hash index.
+
 3. Performance of basic hash table operations
+
+Delete, look up and insert: have an order one time complexity
+
 4. Load factor
+
+number of keys/length (size) of array
+
 5. Automatic resizing
+
+Every time you add, if loading capacity is over a certain limit, then it resizes or spreads keys out.
+
 6. Various use cases for hash tables
+
+can use hash tables to store results and speed up the process (memoization)
+
+
+Working on exercises 2, 3 and 4
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -61,7 +81,7 @@ For each problem that you choose to solve, complete the following:
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module, but they build on the material you just studied. Time allowing, stretch your limits, and see if you can deliver on the following optional goals:
 
-- [ ] Solve any four of the five problems
+- [x] Solve any four of the five problems `DONE`
 - [ ] Solve all five problems
 
 ## Submission format
