@@ -10,7 +10,8 @@ def reconstruct_trip(tickets, length):
     """
     # Your code here
     Dict = {}
-    route =[]  
+    route =[] 
+    
 
     for index in range(len(tickets)):
         ticket = tickets[index]
@@ -18,12 +19,15 @@ def reconstruct_trip(tickets, length):
         value = ticket.destination
         Dict[key]= value
             
-
+    print(Dict) 
     key = 'NONE'
-    while Dict[key] != 'NONE':
+    while True:
         key = Dict[key]
-        route.append(key)   
-
+        route.append(key) 
+        if key == 'NONE':
+            break
+       
+    print(route)
     return route
 
     
